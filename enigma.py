@@ -14,7 +14,7 @@ import random
 
 daykey = ["CXA",(rotor1, rotor2, rotor3),"KSMVBECHJDWPTNZIUYXA"]
 
-samplemessage = "IUSEDTOLOVEKASIAKORYZMAIWONDERIFIWOULDLIKEHERTODAYASMUCHASIDIDALLTHOSEYEARSAGO"
+samplemessage = "IUSEDTOLOVESOMEONEIWONDERIFIWOULDLIKEHERTODAYASMUCHASIDIDALLTHOSEYEARSAGO"
 
 def scrambleGenerator():
     # This generates a string that represents the scramble
