@@ -12,8 +12,6 @@ with encoding and decoding functions.
 
 import random
 
-daykey = ["CXA",(rotor1, rotor2, rotor3),"KSMVBECHJDWPTNZIUYXA"]
-
 samplemessage = "IUSEDTOLOVESOMEONEIWONDERIFIWOULDLIKEHERTODAYASMUCHASIDIDALLTHOSEYEARSAGO"
 
 def scrambleGenerator():
@@ -52,6 +50,8 @@ rotor3 = "NMLBWQGDIRPFUTJCXHSEKYOVAZ"
 rotor4 = "LQCGTJAUEMWHZIPXDFSKYRNBVO"
 rotor5 = "CMLIVZXANWPEDOBFRTGKJSUQYH"
 reflector1 = "QYPJGWMRKLXHDECZVNUOFABTIS"
+
+daykey = ["CXA",(rotor1, rotor2, rotor3),"KSMVBECHJDWPTNZIUYXA"]
 
 """
 This is the code for the inner components of the
