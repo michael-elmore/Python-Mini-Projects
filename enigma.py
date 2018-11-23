@@ -51,6 +51,18 @@ rotor4 = "LQCGTJAUEMWHZIPXDFSKYRNBVO"
 rotor5 = "CMLIVZXANWPEDOBFRTGKJSUQYH"
 reflector1 = "QYPJGWMRKLXHDECZVNUOFABTIS"
 
+"""
+The day key contains three sections:
+    1. The initial rotor offset - this is a string of 3 capital letters.
+    2. The rotors used for the encryption. The more rotors there are to
+    choose from, the stronger the encryption.
+    3. The plugboard - this is a string of 20 capital letters where the
+    pairs swap. i.e. positons [0] and [1] swap, as do [2] and [3] and
+    so on.
+    The daykey has the following format:
+        daykey = ["CXA",(rotor1, rotor2, rotor3),"KSMVBECHJDWPTNZIUYXA"]
+"""
+
 daykey = ["CXA",(rotor1, rotor2, rotor3),"KSMVBECHJDWPTNZIUYXA"]
 
 """
